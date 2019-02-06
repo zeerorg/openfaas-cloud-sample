@@ -6,5 +6,5 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Hello, raspberry p. This is the second push.")
+	return fmt.Sprintf("Hello, raspberry pi. The checks work now too.")
 }
