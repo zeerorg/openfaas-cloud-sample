@@ -6,5 +6,5 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Hello, raspberry pi. Commit 14.")
+	return fmt.Sprintf("Hello, raspberry pi. Commit 15. Should update in dashboard.")
 }
