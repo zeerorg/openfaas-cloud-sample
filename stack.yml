@@ -3,6 +3,6 @@ provider:
   gateway: http://192.168.1.9:8080
 functions:
   sample:
-    lang: go-armhf
+    lang: go
     handler: ./sample
     image: sample:latest
